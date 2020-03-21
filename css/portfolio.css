@@ -1,72 +1,78 @@
 <!-- style -->
 <style type="text/css">
 
-.display-4 .lead{
-	font-family: 'Baloo Da 2', cursive;
-}    
+
 .container{
 	font-family: 'Noto Sans KR', sans-serif;
 } 
-.nav-link{
-	color:#778899;
-}
-#mainNav {
-	background-color: #212529;
-}
-header.masthead {
-	text-align: center;
-	background-image: url("../img/header-bg.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: cover;
-}
-header.masthead {
-	padding-top: 50px;
-	padding-bottom: 100px;
-}
-.portfolio-caption{
-	margin-top: 10px;
-	margin-bottom: 20px;
-	font-weight: 400;
-	font-family: 'Noto Sans KR', sans-serif;
-/*		font-family: 'Baloo Da 2', cursive;
-*/		text-align: center;
-}
-.portfolio-caption-sub{
-	font-family: 'Noto Sans KR', sans-serif;
-	font-size: 15px;
-}
 
-.badge-secondary{
-	font-size: 12px;
+#eng-text{
+  font-family: 'Baloo Da 2', cursive;
+}
+/*.lead{
+  font-family: 'Baloo Da 2', cursive;
+  }    */
+  
+  .nav-link{
+   color:#778899;
+ }
+ #mainNav {
+   background-color: #212529;
+ }
+ header.masthead {
+   text-align: center;
+   background-image: url("../img/header-bg.jpg");
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center center;
+   background-size: cover;
+ }
+ header.masthead {
+   padding-top: 50px;
+   padding-bottom: 100px;
+ }
+ .portfolio-caption{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-weight: 400;
+   font-family: 'Noto Sans KR', sans-serif;
+   /*		font-family: 'Baloo Da 2', cursive;*/		
+   text-align: center;
+ }
+ .portfolio-caption-sub{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 15px;
+ }
 
-}
-body{
-	overflow-x: hidden;
-}
-p {
-	line-height: 1.75;
-}
-a {
-	color: #fed136;
-}
-a:hover {
-	color: #fec503;
-}
-.page-section h2.section-heading {
-	font-size: 40px;
-	margin-top: 0;
-	margin-bottom: 15px;
-}
-.page-section h3.section-subheading {
-	font-size: 16px;
-	font-weight: 400;
-	margin-bottom: 75px;
-	text-transform: none;
-}
+ .badge-secondary{
+   font-size: 13px;
 
-.timeline {
+ }
+ body{
+   overflow-x: hidden;
+ }
+ p {
+   line-height: 1.75;
+ }
+ a {
+   color: #fed136;
+ }
+ a:hover {
+   color: #fec503;
+ }
+ .page-section h2.section-heading {
+   font-size: 40px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+ .page-section h3.section-subheading {
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 75px;
+   text-transform: none;
+ }
+
+ .timeline {
   position: relative;
   padding: 0;
   list-style: none;
@@ -418,6 +424,11 @@ img::-moz-selection {
 	/* IE 9 */
 	transform: rotate(90deg);
 	background-color: #212529;
+}
+
+.footer {
+  padding: 25px 0;
+  text-align: center;
 }
 
 </style>
